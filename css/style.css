@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+#left-side{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+#right-side{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#men-coll {
+    background-image: url(http://coleo.themerex.net/wp-content/uploads/2018/01/1-570x518.jpg);
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 535px;
+}
+#wmen-coll {
+    background-image: url(http://coleo.themerex.net/wp-content/uploads/2017/12/cat-2-copyright-1170x514.jpg);
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    width: 535px;
+    margin: 5px;
+}
+#right-side-top{
+    padding: 10px;
+}
+#right-side-bottom{
+    display: flex;
+    flex-direction: row;
+}
+#sm-coll1 {
+    background-image:url(http://coleo.themerex.net/wp-content/uploads/2018/01/3_01-570x518.jpg);
+    cursor: pointer;
+    background-size: cover;
+    height: 249px;
+    width: 252px;
+    margin: 15px;
+}
+
+
+#sm-coll2 {
+    background-image: url(http://coleo.themerex.net/wp-content/uploads/2018/01/4-570x518.jpg);
+    cursor: pointer;
+    background-size: cover;
+    height: 249px;
+    width: 252px;
+    margin: 15px;
+}
+
+.pic {
+    position: relative;
+    overflow: hidden;
+}
+
+.spic {
+    position: relative;
+    overflow: hidden;
+}
+
+.stext {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 252px;
+    height: 0;
+    color: white;
+    text-align: center;    
+    background: rgba(0, 0, 0, 0.7);
+    transition: height 0.5s ease-out;    
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 535px;
+    height: 0;
+    color: white;
+    text-align: center;    
+    background: rgba(0, 0, 0, 0.7);
+    transition: height 0.5s ease-out;    
+}
+
+
+.pic:hover > .text {
+    height: 50px;
+}
+
+.spic:hover > .stext {
+    height: 50px;
+}
