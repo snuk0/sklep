@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.theme.css">
+    <script src="https://kit.fontawesome.com/8d46374c76.js" crossorigin="anonymous"></script>
     <title>Sklep</title>
 </head>
 <body>
@@ -38,5 +42,125 @@
         </div>
     </div>
 </div>
+<hr>
+<div id="top_products">
+    <h1>Top Products</h1>
+    <!-- <div class="tp-tabs">
+        <span class="tp-title-text active">hot</span><span class="tp-title-text">on sale</span><span class="tp-title-text">trending now</span><span class="tp-title-text">new arrivals</span>
+    </div> -->
+</div>
+<div id="products">
+    <div class="glide multi">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+
+
+                <div class="container">
+                    <img class="top-product" src="http://coleo.themerex.net/wp-content/uploads/2017/12/product-12-copyright-238x287.jpg">
+                    <div class="overlay">
+                    <div class="icon">
+                        <i class="fas fa-cart-plus" style="color: white;"></i>
+                        <i class="fas fa-link" style="color: white;"></i>
+                    </div>
+                    </div>
+                </div><br>
+                
+                <span class="tp-title"><b>Light turtleneck</b></span><br>
+                <span class="tp-price">$23.00 – $32.00</span>
+            </li>
+            <li class="glide__slide">
+                <div class="mask">
+                    <img class="top-product" src="http://coleo.themerex.net/wp-content/uploads/2017/12/product-11-copyright-238x287.jpg">
+                    <div class="icons">
+                        <i class="fas fa-cart-plus" style="color: white;"></i><i class="fas fa-link" style="color: white;"></i>
+                    </div>
+                </div><br>
+                <span class="tp-title"><b>Men's t-shirt</b></span><br>
+                <span class="tp-price">$20.00 – $30.00</span>
+            </li>
+            <li class="glide__slide">
+                <div class="mask">
+                    <img class="top-product" src="http://coleo.themerex.net/wp-content/uploads/2017/12/product-10-copyright-238x287.jpg">
+                </div><br>
+                <span class="tp-title"><b>Midi dress</b></span><br>
+                <span class="tp-price">$110.00 – $135.00</span>
+            </li>
+            <li class="glide__slide">
+                <div class="mask">
+                    <img class="top-product" src="http://coleo.themerex.net/wp-content/uploads/2017/12/product-9-copyright-238x287.jpg">
+                </div><br>
+                <span class="tp-title"><b>Men's longsleave</b></span><br>
+                <span class="tp-price">$45.00 – $55.00</span>
+            </li>
+            <li class="glide__slide">
+                <div class="mask">
+                    <img class="top-product" src="http://coleo.themerex.net/wp-content/uploads/2017/12/product-8-copyright-238x287.jpg">
+                </div><br>
+                <span class="tp-title"><b>Sundress newpoint</b></span><br>
+                <span class="tp-price">$85.00 – $95.00</span>
+            </li>
+            <li class="glide__slide">
+                <div class="mask">
+                    <img class="top-product" src="http://coleo.themerex.net/wp-content/uploads/2017/12/product-7-copyright-238x287.jpg">
+                </div><br>
+                <span class="tp-title"><b>Women's sundress</b></span><br>
+                <span class="tp-price">$35.00 – $45.00</span>
+            </li>
+            <li class="glide__slide">
+                <div class="mask">
+                    <img class="top-product" src="http://coleo.themerex.net/wp-content/uploads/2017/12/product-6-copyright-238x287.jpg">
+                </div><br>
+                <span class="tp-title"><b>Set-in sweater</b></span><br>
+                <span class="tp-price">$65.00 – $75.00</span>
+            </li>
+          </ul>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" style="color: black; border-color: black; left: -40px;" data-glide-dir="<"><</button>
+            <button class="glide__arrow glide__arrow--right" style="color: black; border-color: black; right: 1px;" data-glide-dir=">">></button>
+          </div>
+      </div>
+</div>
+
+<!-- <div id="top_products_body">
+    <div id="tp_body_items">
+        <div class="tp_body_card selected" id="hot_section">
+            <div class="hot_section_item"></div>
+            <div class="hot_section_item"></div>
+            <div class="hot_section_item"></div>
+            <div class="hot_section_item"></div>
+        </div> 
+        <div class="tp_body_card" id="onsale_section">
+            <div class="onsale_section_item"></div>
+            <div class="onsale_section_item"></div>
+            <div class="onsale_section_item"></div>
+            <div class="onsale_section_item"></div>
+        </div> 
+        <div class="tp_body_card" id="trending_section">
+            <div class="trending_section_item"></div>
+            <div class="trending_section_item"></div>
+            <div class="trending_section_item"></div>
+            <div class="trending_section_item"></div>
+        </div>
+        <div class="tp_body_card" id="narrivals_section">
+            <div class="narrivals_section_item"></div>
+            <div class="narrivals_section_item"></div>
+            <div class="narrivals_section_item"></div>
+            <div class="narrivals_section_item"></div>
+        </div>  
+    </div> -->
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+      var glideMulti = new Glide('.multi', {
+        type: 'carousel',
+        autoplay: 0,
+        perView: 4
+    });
+    glideMulti.mount();
+</script>
+<!-- <script src="js/script.js"></script> -->
 </body>
 </html>
