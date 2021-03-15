@@ -219,6 +219,9 @@ hr {
 .mask{
     height: 287px;
     width: 238px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgba(0, 0, 0, 5);
 }
   
@@ -238,10 +241,10 @@ hr {
     opacity: 0;
 }
 
-
 .mask:hover .icons {
     opacity: 1;    
 }
+
 
 .overlay {
    background: rgba(0,0,0,0.7);
